@@ -1,0 +1,48 @@
+/* Services Style */
+.services {
+    background-color: rgba(0, 153, 255, 0.04);
+    padding: 120px 0;
+    & .section-title__desc{
+        max-width: 550px;
+    }
+
+    & .section-title{
+        margin-bottom: 50px;
+    }
+
+    &__single {
+        padding: 40px 25px 50px 25px;
+        background-color: $white;
+        box-shadow: 0 10px 20px rgba(164, 217, 254, .25);
+        transition: .3s;
+        border: 1bx solid transparent;
+        &:hover{
+            box-shadow: 0 0 15px rgba(162, 135, 235, 0.441);
+            border: 1px solid $primary_color;
+            & img{
+            background-color: rgba(0, 153, 255, 0.25);
+            }
+            & h4{
+                color: $primary_color;
+            }
+        }
+
+        &-img {
+            width: 80px;
+            height: 80px;
+            padding: 15px;
+            background-color: rgba(0, 153, 255, 0.04);
+            border-radius: 50px;
+            transition: .3s;
+        }
+
+        &-title {
+            margin: 20px 0;
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &-desc{
+            color: $link_color;
+        }
+    }
+}

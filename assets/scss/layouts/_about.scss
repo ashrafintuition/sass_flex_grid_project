@@ -1,0 +1,13 @@
+/* About Us*/
+.about {
+    &__btn{
+        padding: 12px 35px !important;
+        margin-top: 20px;
+    }
+    & .section-title__heading{
+        font-size: 36px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+
+}

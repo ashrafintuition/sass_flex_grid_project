@@ -1,0 +1,26 @@
+section{
+    padding: 100px 0;
+}
+/* Section Title*/
+.section-title {
+    // margin-bottom: 72px;
+
+    &__sub {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    &__heading {
+        font-size: 48px;
+        font-weight: 700;
+        // line-height: 66px;
+        margin: 20px 0 30px;
+    }
+
+    &__desc {
+        margin: 0 auto;
+        color: #494949;
+        line-height: 25px;
+    }
+}

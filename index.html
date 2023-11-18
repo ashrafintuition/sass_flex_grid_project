@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to sass with jquery</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-3">
+                    <a href="#" class="header__logo">
+                        <i class="fa-solid fa-cloud-sun-rain"></i> SASS Project
+                    </a>
+                </div>
+                <div class="col-xxl-7">
+                    <ul class="header__menu d-flex justify-center">
+                        <li class="header__menu-item">
+                            <a href="#home" class="header__menu-link text-capitilize">Home</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#home" class="header__menu-link text-capitilize">Services</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#home" class="header__menu-link text-capitilize">About Us</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#home" class="header__menu-link text-capitilize">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xxl-2 text-right"><a href="#" class="header__btn btn btn-primary">Contact</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-6">
+                    <h1 class="banner__title">
+                        We are the best agency in the world
+                    </h1>
+                    <p class="banner__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quia?
+                        Rerum neque suscipit nostrum dolorum.</p>
+                    <a href="#" class="banner__btn btn btn-primary">Start a project</a>
+                    <a href="#" class="banner__btn btn btn-border">Learn More a project</a>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="banner__img">
+                        <img src="assets/img/profile.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="section-title text-center">
+                        <span class="section-title__sub text-capitilize">Services</span>
+                        <h3 class="section-title__heading text-capitilize">We Provide</h3>
+                        <p class="section-title__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus cupiditate recusandae error mollitia, vero soluta?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xxl-3">
+                    <div class="services__single">
+                        <img src="assets/img/services/graphic-designer.png" alt="" class="services__single-img">
+                        <h4 class="services__single-title">Graphic Design</h4>
+                        <p class="services__single-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                            atque placeat eligendi, quam incidunt eum?</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="services__single">
+                        <img src="assets/img/services/uiux.png" alt="" class="services__single-img">
+                        <h4 class="services__single-title">UI / UX Design</h4>
+                        <p class="services__single-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                            atque placeat eligendi, quam incidunt eum?</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="services__single">
+                        <img src="assets/img/services/seo.png" alt="" class="services__single-img">
+                        <h4 class="services__single-title">SEO Marketing</h4>
+                        <p class="services__single-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                            atque placeat eligendi, quam incidunt eum?</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="services__single">
+                        <img src="assets/img/services/web.png" alt="" class="services__single-img">
+                        <h4 class="services__single-title">Web Design</h4>
+                        <p class="services__single-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                            atque placeat eligendi, quam incidunt eum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-6">
+                    <div class="about_img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="section-title">
+                        <span class="section-title__sub text-capitilize">About Us</span>
+                        <h3 class="section-title__heading text-capitilize">We ara a creative agency</h3>
+                        <p class="section-title__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus cupiditate recusandae error mollitia, vero soluta?</p>
+                        <br>
+                        <p class="section-title__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus cupiditate vero soluta?</p>
+                        <a href="#" class="about__btn btn btn-primary">More About Us</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="section-title text-center">
+                        <span class="section-title__sub text-capitilize">Meet Our Team</span>
+                        <h3 class="section-title__heading text-capitilize">Our Expert Member's</h3>
+                        <p class="section-title__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus cupiditate recusandae error mollitia, vero soluta?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-3">
+                    <div class="team__single" style="background-image: url('assets/img/team/team1.jpg');">
+                        <img src="" alt="">
+                        <div class="team__single-content">
+                            <div class="team__single-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <h4 class="team__single-title text-capitilize">John Doe <span class="team__single-degi">Developer</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="team__single" style="background-image: url('assets/img/team/team2.jpg');">
+                        <img src="" alt="">
+                        <div class="team__single-content">
+                            <div class="team__single-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <h4 class="team__single-title text-capitilize">John Doe <span class="team__single-degi">Developer</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="team__single" style="background-image: url('assets/img/team/team5.jpg');">
+                        <img src="" alt="">
+                        <div class="team__single-content">
+                            <div class="team__single-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <h4 class="team__single-title text-capitilize">John Doe <span class="team__single-degi">Developer</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-3">
+                    <div class="team__single" style="background-image: url('assets/img/team/team4.jpg');">
+                        <img src="" alt="">
+                        <div class="team__single-content">
+                            <div class="team__single-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <h4 class="team__single-content-title text-capitilize">John Doe <span class="team__single-degi">Developer</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="section-title text-center">
+                        <span class="section-title__sub text-capitilize">Portfolio</span>
+                        <h3 class="section-title__heading text-capitilize">Our Recent Work</h3>
+                        <p class="section-title__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus cupiditate recusandae error mollitia, vero soluta?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-4">
+                    <div class="portfolio__single">
+                        <img src="assets/img/portfolio/portfolio1.jpg" alt="" class="portfolio__img">
+                        <h4 class="portfolio__title">real estate website</h4>
+                        <p class="portfolio__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur ratione temporibus nesciunt ad laborum! Dolorum dolor eligendi pariatur commodi!</p>
+                        <a href="#" class="portfolio__link">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xxl-4">
+                    <div class="portfolio__single">
+                        <img src="assets/img/portfolio/portfolio2.jpg" alt="" class="portfolio__img">
+                        <h4 class="portfolio__title">real estate website</h4>
+                        <p class="portfolio__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur ratione temporibus nesciunt ad laborum! Dolorum dolor eligendi pariatur commodi!</p>
+                        <a href="#" class="portfolio__link">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-xxl-4">
+                    <div class="portfolio__single">
+                        <img src="assets/img/portfolio/portfolio3.jpg" alt="" class="portfolio__img">
+                        <h4 class="portfolio__title">real estate website</h4>
+                        <p class="portfolio__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tenetur ratione temporibus nesciunt ad laborum! Dolorum dolor eligendi pariatur commodi!</p>
+                        <a href="#" class="portfolio__link">Read More <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="portfolio__btn text-center">
+                        <a href="#" class="btn btn-primary text-capitalize">Sea all portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

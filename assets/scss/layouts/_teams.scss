@@ -1,0 +1,52 @@
+/* Teams */
+.team{
+    background-color: rgba(0, 153, 255, 0.04);
+    &__single{
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #0099ff;
+        width: 100%;
+        min-height: 300px;
+        border-radius: 4px 4px 0 0;
+        border: 1px solid #d9d8d8;
+        position: relative;
+        &-content {
+                position: absolute;
+                bottom: -58px;
+                width: 85%;
+                background-color: #fff;
+                box-shadow: 0 0 10px #b9b8b8;
+                text-align: center;
+                margin: 0 auto;
+                padding: 10px;
+                left: 0;
+                right: 0;
+                opacity: .75;   
+                border-radius: 5px;           
+            & h4{
+                font-size: 18px !important;
+                line-height: 24px;
+                letter-spacing: 10px;
+                span{
+                    display: block;
+                    font-size: 14px;
+                    letter-spacing: 2px;
+                }
+            }
+            & a{
+                & i{
+                    margin: 0 5px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 30px;
+                    background-color: #0099ff;
+                    color: $white;
+                    line-height: 20px;
+                    text-align: center;
+                    // font-size: 14px;
+                }
+            }
+        }
+    }
+}
